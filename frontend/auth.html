@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Sandile Energies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h2>Join the Energy Revolution</h2>
+                <p>Create your free account in 30 seconds</p>
+            </div>
+
+            <button class="auth-method ii-login">
+                <img src="images/logoicp.jpeg" alt="Internet Identity">
+                Log in with Internet Identity
+            </button>
+
+            <div class="divider">
+                <span>or</span>
+            </div>
+
+            <form class="email-auth">
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Location</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="role-select">
+                    <div class="role-option">
+                        <input type="radio" name="role" id="buyer" value="buyer" required>
+                        <label for="buyer">Register as Buyer</label>
+                    </div>
+                    <div class="role-option">
+                        <input type="radio" name="role" id="seller" value="seller" required>
+                        <label for="seller">Register as Seller</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="cta-button">Create Account</button>
+            </form>
+
+            <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
